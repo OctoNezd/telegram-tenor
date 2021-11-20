@@ -65,7 +65,6 @@ def search(update, context):
                                                           thumb_url=media["preview"],
                                                           mpeg4_width=int(media["dims"][0]),
                                                           mpeg4_height=int(media["dims"][1]),
-                                                          mpeg4_duration=int(media["duration"]),
                                                           reply_markup=buttons
                                                           ))
                     break
